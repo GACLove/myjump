@@ -335,7 +335,7 @@ def login_command(args):
         # 尝试从配置文件获取密码
         saved_password = config_manager.get_config("password", args.profile)
         if saved_password:
-            use_saved = input(f"使用已保存的密码? (Y/n): ")
+            use_saved = input("使用已保存的密码? (Y/n): ")
             if use_saved.lower() != "n":
                 password = saved_password
 

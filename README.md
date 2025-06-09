@@ -4,7 +4,11 @@ MyJump 是一个命令行工具，用于简化 SSH 登录过程，特别是当�
 
 ## 安装
 
-您可以从 GitHub 克隆源代码并进行安装。
+```bash
+pip install git+https://github.com/GACLove/myjump.git
+```
+
+也可以从 GitHub 克隆源代码并进行安装。
 
 1. **克隆仓库:**
 
@@ -22,7 +26,7 @@ MyJump 是一个命令行工具，用于简化 SSH 登录过程，特别是当�
     pip install -e .
     ```
 
-    这将安装 `myjumpy` 包及其所有依赖，并创建一个名为 `myjump` 的可执行命令。
+    这将安装 `myjump` 包及其所有依赖，并创建一个名为 `myjump` 的可执行命令。
 
 ### 依赖
 
