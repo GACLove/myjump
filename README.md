@@ -150,3 +150,7 @@ MyJump 会在您的用户主目录下创建配置目录 `~/.my-jump/`，并在�
   ```
 
 希望这份 README 文档能够帮助您更好地使用 MyJump 工具！
+
+## FAQ
+
+1. 安装遇到提示是 `Successfully uninstalled UNKNOWN-0.0.0` 的错误，可以尝试使用 `pip install --upgrade pip setuptools wheel build` 升级 setuptools 解决。  
